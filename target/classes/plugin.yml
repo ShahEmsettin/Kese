@@ -1,0 +1,26 @@
+name: Kese
+version: '1.0-SNAPSHOT'
+main: org.speaway.kese.Kese
+api-version: '1.21'
+load: STARTUP
+authors: [ Shah_Emsettin_ ]
+description: Kese 1.0
+
+commands:
+  kese:
+    description: Kese sistemini kullanmanızı sağlar.
+    usage: /kese [koy|al]
+    permission: kese.kullan
+  kesem:
+    description: Kesenizdeki altın miktarını gösterir.
+    usage: /kesem
+    permission: kese.kullan
+  altıngönder:
+    description: Başka bir oyuncuya altın göndermenizi sağlar.
+    usage: /altıngönder <oyuncu> <miktar>
+    permission: kese.kullan
+
+permissions:
+  kese.kullan:
+    description: Kese komutlarını kullanma izni.
+    default: true

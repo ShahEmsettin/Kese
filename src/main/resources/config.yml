@@ -1,0 +1,27 @@
+# Kese Sistemi - Config Dosyası
+options:
+  prefix: "&6Kese Sistemi &8►"
+  yetki: "kese.kullan"
+  yetki_mesaji: "&cMaalesef, bu komuta erişiminiz yok!"
+
+  sifirdan_buyuk: "&cİşlem yapabilmek için 0'dan büyük bir sayı girmelisin."
+
+  kese_koy_basarili: "&aBaşarıyla &e%miktar% &aadet altın keseye konuldu!"
+  kese_koy_yetersiz: "&cMaalesef, &e%miktar% &cadet altının yok!"
+  kese_koy_miktar: "&cKese altın koyabilmek için bir miktar belirtmelisin."
+
+  kese_al_basarili: "&aBaşarıyla &e%miktar% &aadet altın çekildi!"
+  kese_al_yetersiz: "&cMaalesef, Kesede &e%miktar% &cadet altının yok!"
+  kese_al_miktar: "&cKeseden altın alabilmek için bir miktar belirtmelisin."
+
+  altin_gonder_gonderene_mesaj: "&aBaşarıyla &f%oyuncu% &aadlı oyuncuya &e%miktar% &amiktarında altın transfer edildi."
+  altin_gonder_miktar_yetersiz: "&cMaalesef, bu kadar altının bulunmuyor."
+  altin_gonder_aliciya_mesaj: "&f%gonderen% &aAdlı oyuncu hesabınıza &e%miktar% &amiktarında kese altını transfer etti."
+  altin_gonder_oyuncu_belirtilmedi: "&cAltın transfer edebilmek için bir oyuncu belirtmelisin."
+  altin_gonder_miktar_belirtilmedi: "&cAltın transfer etmek için bir miktar belirtmelisin."
+  altin_gonder_kullanim: "&eDoğru Kullanımı: &a/altıngönder <İsim> <Miktar>."
+
+  kesem_hata: "&eDoğru Kullanımı: &a/kesem"
+  kesem: "&eKesende &a%miktar% &eAltın bulunuyor."
+
+  
